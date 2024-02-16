@@ -9,7 +9,7 @@
 
 仅开启国际服资源加载并不能解决前三个问题，因此我们创造了本项目。
 
-界面文字因内容审查的改动，例如 `Overload` => `核心爆发`，`异星黑市` => `异星灰域` 需要修改游戏的部分核心部分代码，理论上风险会更高所以没有提供，如果有需要可以尝试 [AXiX-official/CrossCore-Luascripts-Uncensored](https://github.com/AXiX-official/CrossCore-Luascripts-Uncensored)。希望未来官方可以提供更完善的国际化机制，恢复真正原汁原味的游戏体验。
+界面文字因内容审查的改动，例如 `Overload` => `核心爆发`，`异星黑市` => `异星灰域` 需要修改游戏的部分核心代码，理论上风险会更高所以没有提供，如果有需要可以尝试 [AXiX-official/CrossCore-Luascripts-Uncensored](https://github.com/AXiX-official/CrossCore-Luascripts-Uncensored)。希望未来官方可以提供更完善的国际化机制，恢复真正原汁原味的游戏体验。
 
 ## 免责声明
 
