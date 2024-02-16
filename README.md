@@ -25,12 +25,15 @@
    例如最常见的命令行 `zip` 工具： `zip -0r 交错战线.imazingapp Container -x '*.DS_Store'`。
 
    本项目已经刻意使用与数据包内一致的目录结构存储文件，方便覆盖操作。
+
 3. 使用 iMazing 将修改过的 `交错战线.imazingapp` 恢复回 iOS 设备。**务必注意最后在 iOS 上的操作，确保选择“保留部分设置并继续”，并且“不传输任何内容”（不从 iCloud 恢复数据），以免 iOS 设备数据被重置**。
 4. 启动游戏，等待更新国际服资源后即可重新获得香草般的体验。
 
 ## Android 使用方法
 
-暂缺，欢迎有意愿贡献 Android 使用方法的玩家提交 PR。
+使用任何文件管理工具将 `Android` 目录下的所有文件目录复制到手机上交错战线数据目录的 `files` 目录下覆盖同名文件，通常是 `/sdcard/Android/data/com.megagame.crosscore/files`。
+
+如果使用 adb 工具，可以执行 `push.sh` 自动完成。但请根据你的环境自行修改 `ANDROID_SERIAL` 和目录变量。
 
 ## 文件列表
 
