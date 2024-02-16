@@ -9,7 +9,7 @@
 
 仅开启国际服资源加载并不能解决前三个问题，因此我们创造了本项目。
 
-界面文字因内容审查的改动，例如 `Overload` => `核心爆发`，`异星黑市` => `异星灰域` 无法通过修改资源文件恢复，只能放弃。希望未来官方可以提供更完善的国际化机制，恢复真正原汁原味的游戏体验。
+界面文字因内容审查的改动，例如 `Overload` => `核心爆发`，`异星黑市` => `异星灰域` 需要修改游戏的部分核心部分代码，理论上风险会更高所以没有提供，如果有需要可以尝试 [AXiX-official/CrossCore-Luascripts-Uncensored](https://github.com/AXiX-official/CrossCore-Luascripts-Uncensored)。希望未来官方可以提供更完善的国际化机制，恢复真正原汁原味的游戏体验。
 
 ## 免责声明
 
@@ -31,12 +31,17 @@
 
 ## Android 使用方法
 
-使用任何文件管理工具将 `Android` 目录下的所有文件目录复制到手机上交错战线数据目录的 `files` 目录下覆盖同名文件，通常是 `/sdcard/Android/data/com.megagame.crosscore/files`。
+使用任何文件管理工具将  `Android` 目录下的所有文件目录复制到手机上交错战线数据目录的 `files` 目录下覆盖同名文件，通常是 `/sdcard/Android/data/com.megagame.crosscore/files`。
 
-如果使用 adb 工具，可以执行 `push.sh` 自动完成。但请根据你的环境自行修改 `ANDROID_SERIAL` 和目录变量。
+如果使用 adb 工具，可以执行 `push.sh` 自动完成。但请根据你的环境自行修改  `ANDROID_SERIAL` 和目录变量。
 
 ## 文件列表
 
 - 登录界面：`videos/login/login*`
 - 加载界面插画：`Custom/textures_bigs_uis_bgs_loading_*`
 - 包含跃升等级罗马数字的 UI 图标库：`Custom/textures_uis_icons_rolecard_bg`
+
+## 感谢
+
+- [AXiX](https://github.com/AXiX-official)
+- [ahalpha/Crosscore_Anti_Hexie_Assets](https://github.com/ahalpha/Crosscore_Anti_Hexie_Assets) 提供 Android 资源文件。
