@@ -4,6 +4,7 @@
 
 - 原版登录画面。
 - 登录后的加载界面展示原版插画。
+- 原版后勤慧心插画（勘探指南第一期奖励）。
 - 角色画面显示的跃升等级恢复罗马数字。
 - 开启国际服资源加载（`internation.txt` 的~~那个零~~ 0 已修改为 1）。
 
@@ -31,9 +32,9 @@
 
 ## Android 使用方法
 
-使用任何文件管理工具将  `Android` 目录下的所有文件目录复制到手机上交错战线数据目录的 `files` 目录下覆盖同名文件，通常是 `/sdcard/Android/data/com.megagame.crosscore/files`。
+使用任何文件管理工具将 `Android` 目录下的所有文件目录复制到手机上交错战线数据目录的 `files` 目录下覆盖同名文件，通常是 `/sdcard/Android/data/com.megagame.crosscore/files`。
 
-如果使用 adb 工具，可以执行 `push.sh` 自动完成。但请根据你的环境自行修改  `ANDROID_SERIAL` 和目录变量。
+如果使用 adb 工具，可以执行 `push.sh` 自动完成。但请根据你的环境自行修改 `ANDROID_SERIAL` 和目录变量。
 
 ## 文件列表
 
